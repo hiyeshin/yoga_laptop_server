@@ -10,7 +10,7 @@ from twisted.web import server
 WS_USE_SSL = False
 HTTP_USE_SSL = False
 WS_PORT = 9000 # port the websocket service is hosted on
-SERVER = "0.0.0.0" #this needs to point to the machine running PiIO.SS) and PiIO.SS/pi_io/settings.py line 179
+SERVER = "localhost" #this needs to point to the machine running PiIO.SS) and PiIO.SS/pi_io/settings.py line 179
 DEBUG = True
 HTTP_PORT = 8090 # this listens http communication port
 PROVIDEFLASHSOCKETPOLICYFILE = True

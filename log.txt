@@ -1,0 +1,15 @@
+2013-04-23 22:42:51-0400 [-] Log opened.
+2013-04-23 22:42:51-0400 [-] RPISocketServerFactory starting on 9000
+2013-04-23 22:42:51-0400 [-] Starting factory <rpi_ws.server_protocol.RPISocketServerFactory instance at 0x1014113b0>
+2013-04-23 22:42:51-0400 [-] Site starting on 8090
+2013-04-23 22:42:51-0400 [-] Starting factory <twisted.web.server.Site instance at 0x101a075f0>
+2013-04-23 22:42:51-0400 [-] Factory starting on 843
+2013-04-23 22:42:51-0400 [-] Starting factory <twisted.internet.protocol.Factory instance at 0x101a2fe18>
+2013-04-23 22:44:26-0400 [-] Received SIGINT, shutting down.
+2013-04-23 22:44:26-0400 [twisted.web.server.Site] (TCP Port 8090 Closed)
+2013-04-23 22:44:26-0400 [twisted.web.server.Site] Stopping factory <twisted.web.server.Site instance at 0x101a075f0>
+2013-04-23 22:44:26-0400 [rpi_ws.server_protocol.RPISocketServerFactory] (TCP Port 9000 Closed)
+2013-04-23 22:44:26-0400 [rpi_ws.server_protocol.RPISocketServerFactory] Stopping factory <rpi_ws.server_protocol.RPISocketServerFactory instance at 0x1014113b0>
+2013-04-23 22:44:26-0400 [twisted.internet.protocol.Factory] (TCP Port 843 Closed)
+2013-04-23 22:44:26-0400 [twisted.internet.protocol.Factory] Stopping factory <twisted.internet.protocol.Factory instance at 0x101a2fe18>
+2013-04-23 22:44:26-0400 [-] Main loop terminated.
